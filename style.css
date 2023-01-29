@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+*{
+    cursor: default;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #001;
+    width: 280px;
+    height: 410px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 64px;
+    font-size: 48px;
+    margin-bottom: 3px;
+}
+
+#text1{
+    width: 99%;
+    height: 64px;
+    background-color: #333;
+    font-size: 48px;
+    text-align: right;
+    border-radius: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.btns{
+    display: flexbox;   
+}
+
+.nummaincolor, .numblue, .numpink, .numorange, .numgreen, .numpurple, #C{
+    background-color: #333;
+    display: inline;
+    margin-bottom: 3px;
+    width: 68px;
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.numblue{
+    background-color: blue;
+    width: 138px;
+
+}
+
+.numgreen{
+    background-color: green;
+}
+
+.numorange{
+    background-color: orangered;
+}
+
+.numpink{
+    background-color: #F0F;
+}
+
+.numpurple{
+    background-color: purple;
+}
