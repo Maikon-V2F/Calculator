@@ -17,31 +17,32 @@ body{
 .main{
     display: flex;
     justify-content: center;
-    background-color: #001;
+    background-color: rgba(0,0,17,1.000);
     width: 280px;
     height: 410px;
-    border: 2px solid black;
+    border: 10px solid black;
     border-radius: 10px;
     margin-top: 200px;
 }
 
 h1{
-    background-color: black;
+    background-color: rgba(0,0,17,1.000);
     color: white;
     text-align: center;
     height: 64px;
-    font-size: 48px;
+    font-size: 54px;
     margin-bottom: 3px;
 }
 
 #text1{
     width: 99%;
     height: 64px;
-    background-color: #333;
+    background-color: rgba(51,51,51,0.600);
     font-size: 48px;
     text-align: right;
     border-radius: 10px;
     margin: 5px 0 5px 0;
+    
 }
 
 .btns{
@@ -49,7 +50,7 @@ h1{
 }
 
 .nummaincolor, .numblue, .numpink, .numorange, .numgreen, .numpurple, #C{
-    background-color: #333;
+    background-color: rgba(51,51,51,0.600);
     display: inline;
     margin-bottom: 3px;
     width: 68px;
@@ -57,26 +58,52 @@ h1{
     font-size: 36px;
     text-align: center;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+.nummaincolor:hover, #C:hover{
+    background-color: rgba(14,14,14,0.400);
+}
+
+
 .numblue{
-    background-color: blue;
+    background-color: rgba(0,0,255,1.000);
     width: 138px;
 
 }
 
 .numgreen{
-    background-color: green;
+    background-color: rgba(0,128,0,1.000);
 }
 
 .numorange{
-    background-color: orangered;
+    background-color: rgba(255,69,0,1.000);
 }
 
 .numpink{
-    background-color: #F0F;
+    background-color: rgba(255,0,255,1.000);
 }
 
 .numpurple{
-    background-color: purple;
+    background-color: rgba(128,0,128,1.000);
+}
+
+.numblue:hover{
+    background-color: rgba(0,0,50,1.000);
+}
+
+.numpink:hover{
+    background-color: rgba(50,0,50,1.000);
+}
+
+.numorange:hover{
+    background-color: rgba(80,30,0,1.000);
+}
+
+.numgreen:hover{
+    background-color: rgba(0,50,0,1.000);
+}
+
+.numpurple:hover{
+    background-color: rgba(28,0,28,1.000);
 }
